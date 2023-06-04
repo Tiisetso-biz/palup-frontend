@@ -1,0 +1,26 @@
+ /* Animation keyframes */
+ @keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* Styling */
+ 
+  .animated-text {
+    text-align: center;
+  }
+
+  .animated-text span {
+    display: inline-block;
+    animation: fadeInOut 2s linear infinite;
+  }
+
+  .animated-text span:nth-child(2) {
+    animation-delay: 3s;
+  }
+
+  .highlight {
+    color: #ff5a5f;
+    font-weight: bolder;
+  }
